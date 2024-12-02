@@ -1,0 +1,10 @@
+py -m pip install pandas
+py -m pip install gspread
+py -m pip install numpy
+py -m pip install os
+py -m pip install xlsxwriter
+py -m pip install sys
+py -m pip mysql-connector-python
+py -m pip PyMySQL
+py -m pip SQLAlchemy
+

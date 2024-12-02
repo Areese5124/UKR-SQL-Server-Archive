@@ -1,3 +1,0 @@
-py -m pip install pandas
-py -m pip install gspread
-py -m pip install os
