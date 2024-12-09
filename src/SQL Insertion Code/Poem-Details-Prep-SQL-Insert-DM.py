@@ -8,11 +8,11 @@ import pandas as pd
 import os
 import numpy as np
 
-os.chdir("C:/Users/Arees/OneDrive/UKPP SQL/dep")
+os.chdir("C:/Users/Arees/OneDrive/Repositorys/UKR-SQL-Server-Archive/dep")
 UKPP_Dataframe_Mapped = pd.read_excel("UKPP-SQL-Dataframe-Mapped.xlsx")
 
 import sys
-sys.path.insert(0, 'C:/Users/Arees/OneDrive/UKPP SQL/.config')
+sys.path.insert(0, 'C:/Users/Arees/OneDrive/Repositorys/UKR-SQL-Server-Archive/.config')
 from ukpp_connector import create_connection_UKPP
 
 connection = create_connection_UKPP()
@@ -74,7 +74,10 @@ sql_df.Number_Of_Comments.fillna(0, inplace=True)
 sql_df.Number_Of_Shares.fillna(0, inplace=True)
 
 
-
+from ukpp_connector import create_engine_UKPP
+engine = create_engine_UKPP()
+sql_df.to_sql(name='UKPP_Poem_Details', con=engine, if_exists='append', chunksize = 1000, index= False)
+connection.commit()
 
 
 
