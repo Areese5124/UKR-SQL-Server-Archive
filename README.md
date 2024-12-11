@@ -1,5 +1,5 @@
 ## About 
-The UKR Server Sql Archive was a project for created for [Doctor Amelia Glaser's](https://literature.ucsd.edu/people/faculty/aglaser.html) [Contemporary Ukrainian Poetry Archive](https://ukrpoetry.org/) under the supervision of [Doctor Margaret E. Roberts](https://polisci.ucsd.edu/people/faculty/faculty-directory/currently-active-faculty/roberts-profile.html) during the Winter Quarter of 2024. 
+The UKR Server Sql Archive was a project for created for [Doctor Amelia Glaser's](https://literature.ucsd.edu/people/faculty/aglaser.html) [Contemporary Ukrainian Poetry Archive](https://ukrpoetry.org/) under the supervision of [Doctor Margaret E. Roberts](https://polisci.ucsd.edu/people/faculty/faculty-directory/currently-active-faculty/roberts-profile.html) during the Fall Quarter of 2024. 
 
 ## Goal of the Project
 The goal of this project was to create a scaleable SQL database structure and to transfer the data of the [Contemporary Ukrainian Poetry Archive](https://ukrpoetry.org/) into the SQL server. 
