@@ -9,5 +9,3 @@ All of the data for public use was transferred from the spreadsheets it was on i
 
 Their are details of the structure of the archive in the [src folder](https://github.com/Areese5124/UKR-SQL-Server-Archive/blob/main/res/UKR%20Poem%20Archive%20Structure.png) with a Entity Relationship diagram. For further details you can examine the [UKR-Database-Construction-Script](https://github.com/Areese5124/UKR-SQL-Server-Archive/blob/main/.config/UKR-Database-Construction-Script.sql) which was the SQL script used to create the database.
 
-For any issues or pull requests please email Doctor Glaser at **amglaser@ucsd.edu** or Paige Lee at ().
-
